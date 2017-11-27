@@ -1,0 +1,76 @@
+#content {
+    position: relative;
+    top: 60px;
+    background-color: #7CC6FE;
+    height: 100%;
+}
+
+.cover {
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    position: relative;
+}
+
+.cover-photo {
+    max-width: 100%;
+}
+
+.cover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cover-header {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cover-subheader {
+    color: white;
+    font-size: 30px;
+    letter-spacing: -1.5px;
+}
+
+.about-section {
+    width: 100%;
+    background-color: #E7BBE3;
+    position: relative;
+    display: inline-block;
+}
+.about-photo {
+    width: 50%;
+    float: left;
+}
+
+.about-description {
+    color: white;
+    font-size: 30px;
+    letter-spacing: -1.5px;
+    width: 50%;
+    left: 50%;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+
+}
+
+
+@media screen and (max-width: 1335px) {
+    .about-photo {
+        width: 100%;
+        float: none;
+    }
+
+    .about-description {
+        width: 100%;
+        float: none;
+        position: relative;
+        bottom: 0px;
+        left: 0px;
+        transform: translate(0, 0);
+    }
+}

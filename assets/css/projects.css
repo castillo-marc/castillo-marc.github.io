@@ -1,0 +1,104 @@
+#project-section {
+    position: relative;
+    top: 60px;
+    background-color: #7CC6FE;
+    text-align: center;
+}
+
+.project-item {
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+    width: 80%;
+}
+
+.photo-inactive {
+}
+
+.photo-active {
+    filter: blur(2px);
+}
+
+.photo1 {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(../img/dropout.jpg);
+}
+
+.photo2 {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(../img/pacman.png);
+}
+
+.photo3 {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: gray;
+    background-image: url(../img/enigma.jpg);
+}
+
+.project-title1 {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-description1 {
+    color: white;
+    font-size: 20px;
+    display: none;
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-title2 {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-description2 {
+    color: white;
+    font-size: 20px;
+    display: none;
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-title3 {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-description3 {
+    color: white;
+    font-size: 20px;
+    display: none;
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

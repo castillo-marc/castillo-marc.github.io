@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat, sans-serif;
+}
+#navbar {
+    height: 60px;
+    width: 100%;
+    background-color: #CCD5FF;
+    color: white;
+    position: fixed;
+    text-align: center;
+    z-index: 5;
+}
+
+.navbar-item {
+    color: white;
+    font-size: 30px;
+    letter-spacing: -1.5px;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 60px;
+
+}
+
+.navbar-item:hover {
+    cursor: pointer;
+}
+
+.navbar-item a {
+    color: white;
+    text-decoration: none;
+}
+.navbar-item a:hover {
+    color: #E7BBE3;
+    text-decoration: none;
+}
+
+.navbar-button {
+    height: 40px;
+    width: 40px;
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 10px;
+}
+
+.navbar-button img {
+    max-width: 100%;
+}
+
+.navbar-button:hover {
+    cursor: pointer;
+}
+
+/*cheap way to center my navbar items by making symmetrical items on both sides */
+.placeholder {
+    height: 40px;
+    width: 40px;
+    float: left;
+    position: relative;
+    margin: 0 10px;
+    opacity: 0%;
+}
