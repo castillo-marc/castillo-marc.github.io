@@ -12,6 +12,9 @@
     width: 80%;
 }
 
+.project-item:hover {
+    cursor: pointer;
+}
 .photo-inactive {
 }
 
